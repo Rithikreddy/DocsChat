@@ -8,7 +8,7 @@ openai.api_key = os.environ["OPENAI_API_KEY"]
 
 DOCUMENT_PATH = "docs/budget_speech.pdf"
 EMBEDDING_EXPORT_FOLDER = "embeddings"
-EXMBEDDING_EXPORT_FILE_NAME = "budget_embeddings.csv"
+EXMBEDDING_EXPORT_FILE_NAME = "transformer_embeddings.csv"
 
 loader = PyPDFLoader(DOCUMENT_PATH)
 #Load PDF using pypdf into array of documents
